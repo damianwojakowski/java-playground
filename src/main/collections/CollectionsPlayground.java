@@ -8,10 +8,10 @@ public class CollectionsPlayground {
     public void init() {
         // Lists
             // ArrayList
-        testArrayLists();
             // LinkedList
             // Vector
             // stack
+        testLists();
 
         // Queue
             // Priority Queue
@@ -46,6 +46,24 @@ public class CollectionsPlayground {
             // ...
     }
 
+    private void testLists() {
+        // ArrayList
+        testArrayLists();
+
+        // LinkedList
+        // Vector
+        // stack
+    }
+
+    /**
+     * .add(Collection c)
+     * .add(int index, Object element)
+     * .clear()
+     * .lastIndexOf(Object o)
+     * .clone()
+     * .toArray()
+     * .trimToSize()
+     */
     private void testArrayLists() {
         System.out.println("*** CollectionsPlayground");
 
