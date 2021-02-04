@@ -1,4 +1,5 @@
 import collections.CollectionsPlayground;
+import lambda.LambdaDemo;
 import optionals.Optionals;
 import streams.Streams;
 import threads.Threads;
@@ -8,7 +9,12 @@ public class Main {
 //        playWithOptionals();
 //        playWithStreams();
 //        playWithThreads();
-        playWithCollections();
+//        playWithCollections();
+        playWithLambdas();
+    }
+
+    private static void playWithLambdas() {
+        LambdaDemo.init();
     }
 
     private static void playWithOptionals() {
