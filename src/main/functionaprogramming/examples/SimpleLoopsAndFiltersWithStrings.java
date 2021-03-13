@@ -9,7 +9,8 @@ public class SimpleLoopsAndFiltersWithStrings {
     }
 
     private void structuredVersusFunctionalTest() {
-        List<Integer> numbers = List.of(1, 20, 4, 3, 20, 21, 23, 4);
+        List<String> numbers = List.of("Spring", "AWS", "Spring Boot", "Azure", "Docker",
+                "Kubernetes", "API", "Microservices");
 
     }
 }
