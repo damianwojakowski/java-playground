@@ -1,4 +1,5 @@
 import collections.CollectionsPlayground;
+import functionaprogramming.FunctionalProgramming;
 import lambda.LambdaDemo;
 import optionals.Optionals;
 import streams.Streams;
@@ -10,7 +11,8 @@ public class Main {
 //        playWithStreams();
 //        playWithThreads();
 //        playWithCollections();
-        playWithLambdas();
+//        playWithLambdas();
+        playWithFunctionalProgramming();
     }
 
     private static void playWithLambdas() {
@@ -35,6 +37,11 @@ public class Main {
     private static void playWithCollections() {
         CollectionsPlayground collectionsPlayground = new CollectionsPlayground();
         collectionsPlayground.init();
+    }
+
+    private static void playWithFunctionalProgramming() {
+        FunctionalProgramming functionalProgramming = new FunctionalProgramming();
+        functionalProgramming.init();
     }
 }
 
