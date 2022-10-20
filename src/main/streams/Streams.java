@@ -8,13 +8,18 @@ import java.util.stream.Stream;
 public class Streams {
 
     public static void init() {
-        streamWithRange();
-        streamWithSkip();
-        streamWithSum();
-        streamOfAndFindFirst();
-        filterSortArray();
-        mapAndAverage();
-        streamAList();
+//        streamWithRange();
+//        streamWithSkip();
+//        streamWithSum();
+//        streamOfAndFindFirst();
+//        filterSortArray();
+//        mapAndAverage();
+//        streamAList();
+        test();
+    }
+
+    private static void test() {
+
     }
 
     public static void streamWithRange() {

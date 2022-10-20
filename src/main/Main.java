@@ -12,7 +12,8 @@ public class Main {
 //        playWithThreads();
 //        playWithCollections();
 //        playWithLambdas();
-        playWithFunctionalProgramming();
+//        playWithFunctionalProgramming();
+//        playground.Playground.init();
     }
 
     private static void playWithLambdas() {
