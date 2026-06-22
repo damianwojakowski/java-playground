@@ -7,7 +7,6 @@ public class MaxNumberOfBalloons {
 
         }
 
-        System.out.println("Max number of balloons: " + 1);
         return 1;
     }
 }
