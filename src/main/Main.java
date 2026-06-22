@@ -1,6 +1,7 @@
 import collections.CollectionsPlayground;
 import functionaprogramming.FunctionalProgramming;
 import lambda.LambdaDemo;
+import leetcode.com.LeetCodeProblems;
 import optionals.Optionals;
 import streams.Streams;
 import threads.Threads;
@@ -13,7 +14,8 @@ public class Main {
 //        playWithCollections();
 //        playWithLambdas();
 //        playWithFunctionalProgramming();
-        playground.Playground.init();
+//        playground.Playground.init();
+        playWithLeetCodeProblems();
     }
 
     private static void playWithLambdas() {
@@ -43,6 +45,11 @@ public class Main {
     private static void playWithFunctionalProgramming() {
         FunctionalProgramming functionalProgramming = new FunctionalProgramming();
         functionalProgramming.init();
+    }
+
+    private static void playWithLeetCodeProblems() {
+        LeetCodeProblems leetCodeProblems = new LeetCodeProblems();
+        leetCodeProblems.init();
     }
 }
 
