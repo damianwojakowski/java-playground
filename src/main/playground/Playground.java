@@ -1,5 +1,6 @@
 package playground;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -11,8 +12,23 @@ public class Playground {
 //        iterateOverString();
 //        reverseString();
 //        reverseStringWithStringBuilder();
-        reverseStringsInAList();
+//        reverseStringsInAList();
+        sortArrays();
 
+    }
+
+    private static void sortArrays() {
+        System.out.println("# SORTING ARRAYS #");
+        String[] s = List.of("0.1", "0.30", "2", "10", "100", "200").toArray(new String[6]);
+
+        Arrays.sort(s, 0, 5, (one, two) -> {
+            BigDecimal oneBD = new BigDecimal(one);
+            BigDecimal twoBD = new BigDecimal(two);
+            return oneBD.compareTo(twoBD);
+        });
+
+        System.out.println("Values after sorting:");
+        Arrays.stream(s).forEach(System.out::println);
     }
 
     private static void reverseStringsInAList() {

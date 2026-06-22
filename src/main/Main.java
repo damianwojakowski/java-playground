@@ -13,7 +13,7 @@ public class Main {
 //        playWithCollections();
 //        playWithLambdas();
 //        playWithFunctionalProgramming();
-//        playground.Playground.init();
+        playground.Playground.init();
     }
 
     private static void playWithLambdas() {
